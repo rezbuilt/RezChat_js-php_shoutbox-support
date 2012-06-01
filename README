@@ -1,0 +1,16 @@
+RezChat is a light weight MySQL/PHP/jQuery based chat client. Unlike conventional chat support clients this system appends messages to containers instead of realoading iframes. The database handlers connect directly into your databases user table to provide display fields.
+
+V0.1 BETA
+This current version is not fully complete. Foreign keys need to be defined on line 15 in the admin.php and client.php files
+process.php is diry spaghetti code at the moment, temporary structure to get the sending and updating functionality correct
+
+Next version will allow multiple user differenciation and use less database records (updating instead of recursively adding)
+
+
+install.php
+creates config files with databse credentials
+creates necessary tables
+
+
+Michael Rzeznik
+rezbuilt.com
